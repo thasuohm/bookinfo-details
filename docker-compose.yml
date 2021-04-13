@@ -3,4 +3,4 @@ services:
     build: .
     image: ghcr.io/thasuohm/bookinfo-details:dev
     ports:
-      - "9080:9080"
+      - "8080:8080"
