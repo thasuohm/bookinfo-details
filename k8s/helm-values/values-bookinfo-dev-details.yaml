@@ -5,7 +5,7 @@ details:
   replicas: 1
   imagePullSecrets: registry-bookinfo
   port: 8080
-  detailPath: "/details"
+  healthCheckPath: "/health"
   
 ingress:
   annotations:
