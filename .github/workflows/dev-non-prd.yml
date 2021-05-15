@@ -50,7 +50,7 @@ jobs:
               }
             }
   acceptance-test:
-    needs: deploy-prd
+    needs: deploy
     runs-on: ubuntu-20.04
     steps:
       - name: Check health check page
